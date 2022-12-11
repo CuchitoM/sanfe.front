@@ -3,10 +3,169 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cocina Trambótica</title>
+    <script src="https://kit.fontawesome.com/8e3b08550b.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Megrim&family=Offside&display=swap" rel="stylesheet">
+<!--font-family: 'Libre Barcode 39 Text', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Offside', cursive;-->
 </head>
-<body>
-    <h1>Esta es la pag de contacto</h1>
-    
+<body> 
+    <header>
+        <div class="cabeza">
+            <div class="logo">
+                <img src="./img/logo.png" style="flex-wrap: 2;" alt="logo">
+            </div>   
+            <div class="texto">
+                <h1>Cocina Trambótica</h1>
+            </div>  
+            <div class="redes-1">
+                <a href="https://www.facebook.com/" target="_blank" class="icon-fb"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" class="icon-in"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/" target="_blank" class="icon-ti"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.twitter.com/" target="_blank" class="icon-tw"><i class="fa-brands fa-twitter"></i></a>                    
+            </div>
+        </div>
+        <hr>      
+        <div>
+            <ul class="menu">
+                <li><a href="https://cocinerosargentinos.com/">Inicio</a></li>
+                <li><a href="https://elgourmet.com/receta">Recetas</a></li>
+                <li><a href="https://todococina.net/">Productos</a></li>
+                <li><a href="https://elgourmet.com/noticias">Noticias</a></li>
+                <li><a href="./index.html">Volver a pagina principal</a></li>                
+            </ul>
+        </div> 
+    </header>
+    <section class="pag-contacto"><!--cambios en style-->
+        <h1 class="pag1">
+            pagina de contacto
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repudiandae eius voluptatum necessitatibus id, maiores iusto fugit mollitia odio. Itaque labore sapiente amet fugiat qui. Nobis voluptatum nostrum architecto cupiditate.
+        </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quod ipsa consequuntur esse eaque! Possimus nesciunt sit accusamus dolorem facere. Non cupiditate esse explicabo beatae eaque distinctio odio dolorem impedit.<br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui eius nesciunt tempore ullam ad quaerat maiores reprehenderit inventore ducimus nisi, dolor enim incidunt rem asperiores? Nulla quia consectetur non. Quos?
+        </p>
+        <div class="caja-dimg" >
+            <img class="img-contacto" src="./img/alfajor 4.jpg">
+        </div>
+    </section>
 </body>
+<footer class="pie-pagina">
+    <div class="contenedores">
+        <div class="box-mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.3367214163964!2d-60.65431730000001!3d-32.94211829999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab4128010955%3A0x685466f811f47566!2sAlvear%20700%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1669305502059!5m2!1ses-419!2sar" width=180" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Rosario, Santa Fe, Argentina.</p>
+        </div>       
+        <div class="box-redes"><!--Aca se me hizo un quilombo. Ya que no pude poner el siguenos de .box-redes...Y cuando paso al nombre del creador y los derecos me lleven a la paguina. Tampoco lo puede acer bien responsible -->
+                <a href="https://www.facebook.com/" class="fb" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" class="in" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/"  class="ti" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.twitter.com/" class="tw" target="_blank"><i class="fa-brands fa-twitter"></i></a>                   
+        </div>      
+        <div class="box-mio">
+            <a href="https://www.instagram.com/marina.a.castagnani/" target="_blank" class="mi pagina"><img src="./img/Logomiobla2.png" alt="logo del programador">
+            <p>Creado x <br>Marina castagnani</p>
+        </div>
+    </div>        
+    <div class="caja-final" >
+        <div class="politic">
+        </div>    
+        <div class="copy">
+            <small class="copyright">&copy;2022, <b>CuchitoM.</b> - Todos los Derecos Reservados. All rights reserved.</small>
+        </div>
+    </div>
+    <div> 
+        <a href="https://www.facebook.com/" target="_blank"><img class="iconfb" src="./img/Facebook.png"width="60" height="50"></a></li>
+    </div>
+    
+    <!--
+        .......
+.cabeza {
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+}
+.cabeza .redes-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+.redes-1 {
+    display: inline-flex;
+    border-radius: 50%;
+}
+
+.redes-1 .icon 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    margin: 0x 3px;
+}
+
+.redes-1 a {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-color: rgb(147, 72, 201);
+    border-radius: 50%;
+    color: beige;
+    box-shadow: o 10px 10px  beige;
+    text-align: center;
+    text-decoration: none;
+}
+.redes-1 a:hover {
+    color: beige;
+}
+
+.cabeza .redes-1 a i {
+    font-size: 25px;
+    line-height: 30px;
+}
+ 
+.redes-1 a .icon-fb {
+    position: absolute;
+    margin-top: -70px;
+}
+
+.redes-1 .icon-fb:hover {
+    background-color: rgb(8 , 81, 255);
+    color: white;    
+    border-color: rgb(8 , 81, 255);
+    
+}
+
+.redes-1 a .icon-in {
+    position: absolute;
+    margin-top: -70px;
+    background-color: beige;
+}
+.redes-1 .icon-in:hover {    
+    background-color: rgb(255, 8, 201); 
+    color: beige;
+    border-color: rgb(255, 8, 201);
+}
+
+        .....                  
+redes-1 {
+display: flex;
+justify-content: center;
+list-style: none;
+font-size: 20px;      
+}-->  
+</footer> 
 </html>
